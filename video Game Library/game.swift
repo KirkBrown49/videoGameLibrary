@@ -9,11 +9,11 @@
 import Foundation
 
 class Game {
-    var title: String
+    let title: String
     var checkedIn : Bool = true
     var dueDate: Date?
-    init(title: String,dueDate: Date? ) {
-        self.title = title
     
+    init(title: String) {
+        self.title = title
     }
 }
